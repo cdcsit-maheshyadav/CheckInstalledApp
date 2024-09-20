@@ -16,18 +16,12 @@ A simple C# utility to check if an application is installed on a Windows system 
 2. **Call the Method**: Use the `IsAppInstalled` method from the `InstalledApp` class to check if an application is installed.
 
 ```csharp
-using CheckInstalledApp;
+Console.WriteLine("Enter the name of application.");
+var appName=Console.Read().ToString();
+var isInstalled = InstalledApp.IsAppInstalled(appName);
 
-bool isInstalled = InstalledApp.IsAppInstalled("Your Application Name");
-
-if (isInstalled)
-{
-    Console.WriteLine("The application is installed.");
-}
-else
-{
-    Console.WriteLine("The application is not installed.");
-}
+Console.WriteLine(isInstalled ? "The application is installed." : "The application is not installed.");
+Console.ReadKey();
 ```
 
 ## Installation
