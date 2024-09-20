@@ -8,10 +8,10 @@ namespace CheckInstalledApp
         {
             Console.WriteLine("Enter the name of application.");
             var appName=Console.Read().ToString();
-            var app = InstalledApp.IsAppInstalled(appName);
+            var isInstalled = InstalledApp.IsAppInstalled(appName);
 
-            Console.WriteLine(app);
-            Console.Read();
+            Console.WriteLine(isInstalled ? "The application is installed." : "The application is not installed.");
+            Console.ReadKey();
         }
     }
 }
