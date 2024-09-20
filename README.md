@@ -2,6 +2,8 @@
 
 A simple C# utility to check if an application is installed on a Windows system by querying the Windows Registry.
 
+![Running Project](https://res.cloudinary.com/maheshdharhari/image/upload/v1726831037/Blog/CheckInstalledApp.png)
+
 ## Features
 
 - Check for installed applications using their display names.
