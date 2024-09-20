@@ -51,6 +51,3 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions or feedback, please reach out to [contact@maheshyadav.com.np].
-```
-
-Make sure to replace the placeholder URLs and email with your actual details!
